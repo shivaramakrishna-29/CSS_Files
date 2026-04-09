@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Defines the character encoding for the page -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the layout responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title shown in the browser tab -->
+    <title>Navigation Bar Example</title>
+
+    <!-- Font Awesome CDN is used to display the Apple, search, and cart icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+
+    <style>
+        /* Removes the default browser margin so the navbar touches the edges */
+        body {
+            margin: 0;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        }
+
+        /* Styles the main navigation container */
+        .navbar {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        /* Styles all navigation links and icon links */
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        /* Adds a border when the user hovers over a link */
+        .navbar a:hover {
+            border: 1px solid black;
+        }
+
+        /* Keeps icon spacing consistent inside their anchor tags */
+        .navbar i {
+            pointer-events: none;
+        }
+
+        /* Adds spacing for the long paragraph content below the navbar */
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar section -->
+    <nav class="navbar">
+        <!-- Apple brand icon -->
+        <a href="#" aria-label="Apple">
+            <i class="fa-brands fa-apple"></i>
+        </a>
+
+        <!-- Main navigation links -->
+        <a href="#">Store</a>
+        <a href="#">Mac</a>
+        <a href="#">iPad</a>
+        <a href="#">iPhone</a>
+        <a href="#">iWatch</a>
+        <a href="#">AirPods</a>
+        <a href="#">TV &amp; Home</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Accessories</a>
+        <a href="#">Support</a>
+
+        <!-- Search icon -->
+        <a href="#" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+
+        <!-- Shopping cart icon -->
+        <a href="#" aria-label="Shopping Bag">
+            <i class="fa-solid fa-basket-shopping"></i>
+        </a>
+    </nav>
+
+    <!-- Page content added only to show how the sticky navbar behaves while scrolling -->
+    <div class="content">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit autem dolor voluptate sunt ratione, dicta beatae perspiciatis repudiandae ipsum ullam. Aliquam repellendus voluptate, quaerat saepe alias fugit non ab.
+            Iste facilis minima veritatis sint. At voluptates consequuntur esse molestias architecto modi accusamus quam. Reprehenderit, ipsum maiores! Maxime nobis aliquid soluta fugit similique cum facilis dolorum velit, repellendus adipisci voluptate.
+            Ex sed, sint asperiores ipsum vitae eligendi omnis in porro inventore, quas nam temporibus maxime mollitia quis laborum! Accusantium quis in possimus dicta consectetur amet voluptatem, atque officiis fugit odio.
+            Aut dignissimos maiores praesentium possimus voluptas accusamus corporis at enim iure. Itaque possimus iusto sit tempora voluptatem suscipit! Commodi quos sit eveniet amet? Ad natus porro, optio corrupti velit tempora!
+            Vel voluptas dolorem sint iure! Deserunt est deleniti pariatur molestiae accusantium dolores aliquid magni, alias quaerat illum debitis quidem eos ea, id, eum commodi inventore consectetur dolor? Veritatis, eos quidem!
+            Vitae non iste dolore repudiandae natus laboriosam, sed dolorem iure cum cupiditate, culpa corrupti voluptatem illum dignissimos porro mollitia pariatur aliquid exercitationem ducimus, rerum recusandae totam odio quibusdam. Porro, vitae.
+            Nihil, obcaecati delectus! Corrupti et aperiam sit alias eligendi optio cupiditate tenetur animi sint repellendus sequi, laudantium labore suscipit, vitae tempore fuga amet placeat minus expedita veniam natus consequuntur? Dolor.
+            Perspiciatis quam perferendis quaerat officia nostrum provident, obcaecati eius? Voluptatum odit nesciunt ipsa dolorum illo sint eum natus! Totam architecto reprehenderit quo corporis dignissimos ullam explicabo deleniti mollitia sed earum!
+            Libero delectus itaque dicta odit aliquam. Ab nemo similique pariatur animi accusantium ipsum iusto, sequi laudantium quisquam corporis alias hic eos, dicta modi culpa eaque tempora reiciendis voluptatem obcaecati qui.
+            Iure ipsa, reiciendis tempore ab quidem laudantium velit placeat repellat atque libero inventore assumenda, exercitationem dignissimos nemo veritatis doloribus fugit! Maiores suscipit placeat enim esse, quisquam possimus? Nemo, quod numquam.
+            Vel doloremque fugiat quos totam praesentium quod vero possimus accusantium fugit natus facilis deleniti amet sapiente odio suscipit iste, autem veniam consectetur cupiditate dolorum qui sed aspernatur ut! Sapiente, voluptatum!
+            Quod eos accusamus velit a eum aliquam modi voluptatum veritatis quos, fugiat ut necessitatibus ipsam nemo blanditiis illo iusto, nam iste? Reprehenderit minima laudantium accusantium voluptas, error dolorum assumenda dolorem.
+            Magnam eius, alias facere aliquid nihil molestias libero repudiandae cupiditate perspiciatis harum vitae numquam? Deleniti dolores quod unde non delectus velit quibusdam natus facere minima aperiam? Laborum consequatur perspiciatis ad!
+            Voluptates officiis possimus quisquam consequuntur inventore temporibus beatae assumenda est velit, asperiores quidem enim vitae quis amet dolores at labore. Tempore at in magni. Architecto distinctio quas odit repellendus cum.
+            Enim, repudiandae aspernatur. Asperiores tempore adipisci sit at earum necessitatibus hic beatae aliquam facilis laboriosam, placeat, delectus ad fugiat molestias soluta minus, perferendis reprehenderit ea. Dicta facilis quos tempore. Suscipit!
+            Dignissimos eveniet explicabo pariatur ipsam error voluptatibus dolore excepturi voluptate hic aliquam nam impedit a, perferendis repellat adipisci suscipit ex maiores nihil fugiat officia quae neque tempore magni quibusdam. Repudiandae!
+            Illum facilis accusamus nostrum aliquid sed impedit expedita soluta, beatae architecto amet corrupti quasi maxime nobis repellat voluptate, ducimus, illo hic itaque accusantium tenetur? Debitis placeat eos architecto exercitationem quod?
+            Rem qui quos quasi, dignissimos itaque animi quae voluptatibus hic et sed ea. Sapiente, ratione neque! Placeat maiores consequatur ipsam sint fuga, pariatur libero ab? Quisquam sed rerum quidem quos?
+            Ad expedita accusantium perspiciatis, inventore iure odit soluta rerum non omnis consequatur mollitia eveniet eos voluptatem modi voluptate iste sit illo incidunt molestias aut impedit? Harum molestias esse nisi repudiandae!
+            Voluptatibus, cupiditate obcaecati nam delectus facere ratione iste nesciunt dolorum expedita eligendi exercitationem nemo dolor totam porro cum sequi aliquam labore, tempora quos velit cumque culpa ullam minima non. Doloremque?
+        </p>
+    </div>
+</body>
+</html>

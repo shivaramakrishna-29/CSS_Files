@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    display: flex;
+    padding: 10px;
+    width: 1%;
+}
+.item-img{
+         
+         box-shadow:0px 1px 4px blue;
+         padding: 60px;
+         margin: 18px;
+    }
+    .item-img img{
+        height: 170px;
+        width: 165px;
+    }
+    .item-img ol{
+        color: red;
+        text-transform: capitalize;
+        
+
+    }
+    .item-img li:hover{
+        color: blue;
+        overflow: visible;
+        text-decoration: underline black;
+    }
+    
+    .item-img button{
+        background-color:black;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        border: none;
+        
+    }
+    @media screen {
+        
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="item-img">
+            <img src="data:image/jpeg;base64,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">
+            <h2>Apple</h2>
+            <h3>Benefits of apple :</h3>
+            <p>
+                <ol type="1">
+                	<li>Apple is a sweet and crunchy fruit.</li>
+	                <li>It comes in different colors like red, green, and yellow.</li>
+		            <li>Apples are rich in fiber and vitamins.</li>
+		            <li>They are good for digestion and overall health.</li>
+		            <li>An apple a day helps keep the doctor away.</li>
+		            <li>Apples grow on trees in cool climates.</li>
+		            <li>They are used to make juice, pies, and desserts.</li>
+		            <li>Apples have a juicy and refreshing taste.</li>
+		            <li>hey are low in calories and good for weight control.</li>
+		            <li>Apples are one of the most popular fruits in the world.</li>
+                    </ol>
+            </p>
+            <button>Add to cart</button>
+        </div>
+        <div class="item-img">
+         <img src="data:image/jpeg;base64,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">
+            <h2>Apple</h2>
+            <h3>Benefits of apple :</h3>
+            <p>
+                <ol type="1">
+                	<li>Apple is a sweet and crunchy fruit.</li>
+	                <li>It comes in different colors like red, green, and yellow.</li>
+		            <li>Apples are rich in fiber and vitamins.</li>
+		            <li>They are good for digestion and overall health.</li>
+		            <li>An apple a day helps keep the doctor away.</li>
+		            <li>Apples grow on trees in cool climates.</li>
+		            <li>They are used to make juice, pies, and desserts.</li>
+		            <li>Apples have a juicy and refreshing taste.</li>
+		            <li>hey are low in calories and good for weight control.</li>
+		            <li>Apples are one of the most popular fruits in the world.</li>
+                    </ol>
+            </p>
+            <button>Add to cart</button>
+            </div>
+            <div class="item-img">
+         <img src="data:image/jpeg;base64,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">
+            <h2>Apple</h2>
+            <h3>Benefits of apple :</h3>
+            <p>
+                <ol type="1">
+                	<li>Apple is a sweet and crunchy fruit.</li>
+	                <li>It comes in different colors like red, green, and yellow.</li>
+		            <li>Apples are rich in fiber and vitamins.</li>
+		            <li>They are good for digestion and overall health.</li>
+		            <li>An apple a day helps keep the doctor away.</li>
+		            <li>Apples grow on trees in cool climates.</li>
+		            <li>They are used to make juice, pies, and desserts.</li>
+		            <li>Apples have a juicy and refreshing taste.</li>
+		            <li>hey are low in calories and good for weight control.</li>
+		            <li>Apples are one of the most popular fruits in the world.</li>
+                    </ol>
+            </p>
+            <button>Add to cart</button>
+            </div>
+            <div class="item-img">
+            <img src="data:image/jpeg;base64,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">
+            <h2>Banana</h2>
+            <h3>Benefits of Banana :</h3>
+            <p>
+    <ol type="1">
+        <li>Banana is a soft and sweet fruit.</li>
+        <li>It has a yellow peel and creamy texture inside.</li>
+        <li>Bananas are rich in potassium and vitamins.</li>
+        <li>They are good for energy and muscle health.</li>
+        <li>Eating bananas helps in improving digestion.</li>
+        <li>Bananas grow in tropical climates.</li>
+        <li>They are used to make shakes, smoothies, and desserts.</li>
+        <li>Bananas have a naturally sweet and pleasant taste.</li>
+        <li>They are low in fat and easy to digest.</li>
+        <li>Bananas are one of the most widely consumed fruits in the world.</li>
+    </ol>
+</p>
+            <button>Add to cart</button>
+            </div>
+    </div>
+</body>
+</html>
