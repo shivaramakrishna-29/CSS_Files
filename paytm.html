@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -10,6 +10,7 @@
 <style>
     body{
         margin: 0%;
+        background-color: whitesmoke;
     }
     a{
         text-decoration: none;
@@ -57,6 +58,19 @@
         border-radius: 25px;
         padding: 10px;
     }
+    .page-main{
+        display: flex;
+        background-color: white;
+        margin: 2% 6%;
+        border-radius: 20px;
+        }
+        .page img{
+           width: 40%;
+        }
+        .page-image{
+            width: 80% !important; 
+        }
+
 </style>
 <body>
     <nav class="paytm">
@@ -113,5 +127,26 @@
           <a class="sign" href=""><i class="fa-solid fa-user"></i>Sign in</a>
        </div>
     </nav>
+    <div class="page-main">
+        <div class="page">
+        <img src="https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png"/>
+        <h1>Pay anyone directly from your <span>bank account</span></h1>
+        <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm
+            UPI or Directly from your Bank Account.
+            Plus, send & receive money from anyone link.
+        </p>
+        
+        <a href="#">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png" alt="">
+        </a>
+        <a href="#">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png" alt="">
+        </a>
+        </div>
+
+        <div>
+          <img class="page-image" src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png"/>
+        </div>
+    </div>
 </body>
 </html>

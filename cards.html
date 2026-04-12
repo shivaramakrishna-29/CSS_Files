@@ -7,41 +7,60 @@
 </head>
 <style>
 .container{
+    /* Makes all the cards come in one row */
     display: flex;
+    /* Gives small space inside the main container */
     padding: 10px;
+    /* This width is very small, so the container may shrink too much */
     width: 1%;
 }
 .item-img{
-         
+         /* Adds a light blue shadow around each card */
          box-shadow:0px 1px 4px blue;
+         /* Gives inner space so content does not touch the border area */
          padding: 60px;
+         /* Keeps gap between one card and another */
          margin: 18px;
     }
     .item-img img{
+        /* Fixes the image height */
         height: 170px;
+        /* Fixes the image width */
         width: 165px;
     }
     .item-img ol{
+        /* Changes ordered list text color to red */
         color: red;
+        /* Makes first letter of each word capital */
         text-transform: capitalize;
         
 
     }
     .item-img li:hover{
+        /* Changes list item color when mouse is placed on it */
         color: blue;
+        /* Keeps content visible if it becomes bigger */
         overflow: visible;
+        /* Adds black underline on hover */
         text-decoration: underline black;
     }
     
     .item-img button{
+        /* Gives button black background */
         background-color:black;
+        /* Makes button text white */
         color: white;
+        /* Rounds the button corners */
         border-radius: 20px;
+        /* Adds space inside the button */
         padding: 10px;
+        /* Removes default border */
         border: none;
         
     }
     @media screen {
+        /* Media query section is empty now.
+           We usually use this part to make the page responsive for different screen sizes. */
         
     }
 
