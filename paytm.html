@@ -18,6 +18,8 @@
     .paytm{
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0%;
         padding: 18px 3%;
         font-size: 0.7rem;
         position: sticky;
@@ -25,7 +27,7 @@
     }
     .drop-downs {
         /* border: 1px solid  red;  */
-        width: 58%;
+        width: 60%;
         display: flex;
         text-align: center;
         justify-content: space-evenly;
@@ -44,13 +46,16 @@
         display: flex;
         justify-content: space-between;
         text-align: center;
+        align-items: center;
         
     }
     .navbar-links a{
         /* border: 1px solid red; */
-        padding: 4px 0px 4px 0px ;
+        /* padding: 4px 0px 4px 0px ; */
         color: #002970;
-        align-items: center;
+        display: flex;
+        /* justify-content: space-between;
+        align-items: center; */
     }
     .sign {
         color: white !important;
@@ -58,17 +63,27 @@
         border-radius: 25px;
         padding: 10px;
     }
-    .page-main{
+    .bank-container{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         background-color: white;
         margin: 2% 6%;
         border-radius: 20px;
+        padding-left: 5%;
         }
-        .page img{
-           width: 40%;
+        .bank{
+            width: 40%;
         }
-        .page-image{
-            width: 80% !important; 
+        .bank img{
+           width: 30%;
+        }
+        .bank h1{
+            font-size: 2.5rem;
+        }
+        .bank-image{
+            width: 60% !important; 
+            float: right;
         }
 
 </style>
@@ -127,10 +142,10 @@
           <a class="sign" href=""><i class="fa-solid fa-user"></i>Sign in</a>
        </div>
     </nav>
-    <div class="page-main">
-        <div class="page">
+    <div class="bank-container">
+        <div class="bank">
         <img src="https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png"/>
-        <h1>Pay anyone directly from your <span>bank account</span></h1>
+        <h1>Pay anyone directly from your <span style="color:#00baf2;">bank account</span></h1>
         <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm
             UPI or Directly from your Bank Account.
             Plus, send & receive money from anyone link.
@@ -145,7 +160,7 @@
         </div>
 
         <div>
-          <img class="page-image" src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png"/>
+          <img class="bank-image" src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png"/>
         </div>
     </div>
 </body>
