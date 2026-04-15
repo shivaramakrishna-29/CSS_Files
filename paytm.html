@@ -73,7 +73,10 @@
         padding-left: 5%;
         }
         .bank{
-            width: 40%;
+            width: 45%;
+        }
+        .bank-container .lam{
+            font-size: 2.8rem;
         }
         .bank img{
            width: 30%;
@@ -84,6 +87,42 @@
         .bank-image{
             width: 60% !important; 
             float: right;
+        }
+        .bank-container .switch{
+            /* font-family: Roboto; */
+            font-size: 2rem;
+            margin: 8pX;
+            /* font-weight: bold; */
+        }
+        .bank-container .margin {
+            font-size: 2.6rem;
+            color: #07baf2;
+            font-weight: bold;
+            margin: 8PX;
+        }
+        .get{
+            font-size: 1.2rem;
+        }
+        .invest{
+            background-color: #002970;
+            /* font-weight: bold; */
+            color: aliceblue;
+            border-radius: 25px;
+            padding: 10px 20px;
+            /* border: blue; */
+            
+        }
+        .invest:hover{
+            background-color: white;
+            color: #002970;
+            border:2.9px solid #002970;
+            /* font-weight: bold; */
+        }
+        .bank-container span{
+            font-size: 0.8rem;
+        }
+        .trading-image{
+           width: 55%;
         }
 
 </style>
@@ -145,7 +184,7 @@
     <div class="bank-container">
         <div class="bank">
         <img src="https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png"/>
-        <h1>Pay anyone directly from your <span style="color:#00baf2;">bank account</span></h1>
+        <h1>Pay anyone directly from your <span class="lam" style="color:#00baf2;">bank account</span></h1>
         <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm
             UPI or Directly from your Bank Account.
             Plus, send & receive money from anyone link.
@@ -162,6 +201,26 @@
         <div>
           <img class="bank-image" src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png"/>
         </div>
+    </div>
+    <div class="bank-container">
+        <div class="bank">
+        <img src="https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png"/>
+        <p class="switch">Switch to Paytm Money.
+            Pay Less, Trade More.</p>
+        <p class="margin">Margin Trading Facility (MTF) at 7.99%* p.a.</p>
+        <p class="get">Get up to 4X Buying Power on 1200+ Stocks at Low Interest Rates with Margin Trading Facility by Paytm Money.</p>
+        <p>
+        <a class="invest" href="">
+              Invest with MTF<i class="fa-solid fa-arrow-right"></i>
+        </a>
+        </p>
+        <span>
+            Investment in securities market are subject to market risks, read all the related documents carefully before investing. The securities are quoted as an example and not as a recommendation. Margin Funding as subject to the provisions of SEBI Circular CIR/MRD/DP/54/2017 dated June 13, 2017, and the terms and conditions mentioned in rights and obligations statement issued by the Paytm Money Limited. For detailed disclaimer please visit:<a style="color: #002970; text-decoration: none;" href="https://www.paytmmoney.com">https://www.paytmmoney.com</a> 
+       </span>
+        </div>
+
+          <img class="trading-image" src="https://assetscdn1.paytm.com/images/catalog/view/1763534762757.jpg"/>
+        
     </div>
 </body>
 </html>
