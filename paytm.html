@@ -36,13 +36,13 @@
     .drop-downs select{
         color: black;
         border: none;
-        font-size:0.8rem;
+        font-size:1.0rem;
         font-weight: bold;
 
     }
     .navbar-links{
-      
-        width: 13%;
+        font-size: 0.9rem;
+        width: 14%;
         display: flex;
         justify-content: space-between;
         text-align: center;
@@ -124,6 +124,54 @@
         .trading-image{
            width: 55%;
         }
+        .credit-container{
+            display: flex;
+            margin: 2% 6%;
+            gap: 30px;
+        }
+        .credit{
+            width: 45%;
+            padding: 5%;
+             background-color: white;
+             border-radius:25px;
+             background-image: url(https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png);
+             background-size: cover;
+             background-repeat: no-repeat;
+        }
+        .credit img{
+            width: 25%;
+        }
+        .credit h1{
+            font-size: 2.5rem;
+        }
+        .apply a{
+            border: 1px solid #002970;
+            color: #002970;
+            border-radius: 25px;
+            padding-inline-start: 10px 25px;
+            padding: 2% 3%;
+
+        }
+        .apply a:hover{
+            background-color:#002970;
+            color: white;
+        }
+        .apply img{
+            width: 40%;
+            vertical-align: middle;
+        }
+        .credit-image{
+            margin: 20px 0;
+            width: 100% !important;
+        }
+        .credit{
+            background-image: none;
+            background: linear-gradient(#D3F5FF, #FFFFFF);;
+        }
+        /* .credit-super img{
+            width: 25%;
+        } */
+    
 
 </style>
 <body>
@@ -221,6 +269,34 @@
 
           <img class="trading-image" src="https://assetscdn1.paytm.com/images/catalog/view/1763534762757.jpg"/>
         
+    </div>
+    <div class="credit-container">
+        <div class="credit">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27220898816562102.png"/>
+            <h1>One destination for<br>
+                <span style="color:#00baf2;">Credit Cards</span></h1> 
+            <p>Paytm HDFC, SBI Card & Axis Bank Credit Card with assured Cashback and incredible offers.</p>
+            <div class="apply">
+            
+             <a href="#">Apply now<i class="fa-solid fa-arrow-right"></i></a>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1741675100265.png"/>
+            </div>
+            <img class="credit-image" src="https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27221716933469500.png"/>
+        </div>
+
+
+
+        <div class=" credit"><!--second container-->
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834804/1725623952233.png"/>
+            <h1>Insurance ka<br>
+                <span style="color:#00baf2;">Super Market</span></h1>
+            <p>A Smart, Simple & Transparent Platform to Explore & Purchase Insurance.</p>
+            <div class="apply">
+             <a href="#">Get it now<i class="fa-solid fa-arrow-right"></i></a>
+            
+            </div>
+            <img class="credit-image" src="https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png">
+        </div>
     </div>
 </body>
 </html>
