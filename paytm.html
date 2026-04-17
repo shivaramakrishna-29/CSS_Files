@@ -171,7 +171,93 @@
         /* .credit-super img{
             width: 25%;
         } */
-    
+        .footer {
+  background-color: #f5f5f5;
+  padding: 20px 40px;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Top section */
+.footer-top {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  
+}
+
+.footer-top span {
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+/* Accordion */
+.footer-section {
+  margin-top: 20px;
+}
+
+.accordion {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.accordion:hover {
+  color: #000;
+}
+
+/* Bottom */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.social a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 2% 2%;
+  background-color: #000;
+  color: white;
+}
+.social span {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
 
 </style>
 <body>
@@ -231,7 +317,7 @@
     </nav>
 
 
-    <!--SECOND - INTERFACE-->
+    <!--FIRST - INTERFACE-->
     <div class="bank-container">
         <div class="bank">
         <img src="https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png"/>
@@ -253,6 +339,8 @@
           <img class="bank-image" src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png"/>
         </div>
     </div>
+
+    <!--SECOND INTERFACE-->
     <div class="bank-container">
         <div class="bank">
         <img src="https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png"/>
@@ -304,5 +392,52 @@
             <img class="credit-image" src="https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png">
         </div>
     </div>
+    <footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- Top Navigation -->
+    <div class="footer-top">
+      <span>Investor Relations</span>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Financials</a>
+        <a href="#">Filings & Press Releases</a>
+        <a href="#">News & Events</a>
+        <a href="#">Corporate Governance</a>
+        <a href="#">Resources</a>
+      </div>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="footer-section">
+      <div class="accordion">+ More about Paytm</div>
+      <div class="accordion">+ Company</div>
+      <div class="accordion">Career</div>
+      <div class="accordion">+ Recharge & Pay Bills</div>
+      <div class="accordion">+ Pay Loan EMI, Insurance Premiums & Education Fee</div>
+      <div class="accordion">+ Book Travel & Entertainment</div>
+      <div class="accordion">+ Investments & Miscellaneous</div>
+      <div class="accordion">+ Loans and Credit Cards</div>
+      <div class="accordion">+ Financial Tools & Calculators</div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+      <p>© 2025 Paytm</p>
+
+      <div class="social">
+        <span>Follow Us</span>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
 </body>
 </html>
